@@ -9,6 +9,10 @@
     font-family: LogoFont;
     src: url(logoFont.ttf);
 }
+@font-face {
+    font-family: TextFont;
+    src: url("textFont.ttf");
+}
 
 body {
     overflow: hidden;
@@ -40,6 +44,9 @@ nav  {
     font-family: LogoFont, serif;
     text-transform: uppercase;
 }
+.logo:hover {
+    color: aqua;
+}
 
 .navItems {
     display: flex;
@@ -48,4 +55,16 @@ nav  {
 .navItems li {
     list-style: none;
     margin: 0 15px;
+}
+
+.navItems li a{
+    font-size: 25px;
+    color: #4ECCA3;
+    letter-spacing: 3px;
+    font-family: TextFont, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navItems li a:hover {
+    color: aqua;
 }
