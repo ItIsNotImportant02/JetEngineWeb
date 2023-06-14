@@ -16,6 +16,7 @@
 
 body {
     overflow: hidden;
+    overflow-y: hidden;
 }
 
 .container {
@@ -43,11 +44,20 @@ nav  {
     cursor: pointer;
     font-family: LogoFont, serif;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .logo:hover {
     color: aqua;
+    margin-left: 50px;
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: #4ECCA3;
+    cursor: pointer;
+    font-family: LogoFont;
+    text-transform: uppercase;
+    text-decoration: none;
 }
-
 .navItems {
     display: flex;
 }
@@ -86,4 +96,53 @@ nav  {
     color: #fdf242;
     font-weight: bold;
     cursor: pointer;
+}
+/* Split the screen in half */
+.split {
+    height: 1000px;
+    margin-top: 80px;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+}
+
+/* Control the right side */
+.right {
+    position: absolute;
+    right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+    border-radius: 50%;
+}
+.engine1 {
+    padding-top: 15%;
+    padding-left: 25%;
+}
+.text1 {
+    position: absolute;
+    margin: 20% 10% 10% 10%;
+    padding: 3% 3% 3% 3%;
+    color: #4ECCA3;
+    text-align: center;
+    border: #4ECCA3 dashed;
+    overflow-y: hidden;
+
 }
