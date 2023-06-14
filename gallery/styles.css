@@ -21,9 +21,8 @@ body {
 .container {
     width: 100%;
     min-height: 100vh;
-    background: #262626;
+    background: #1e1e1e;
 }
-
 nav  {
     display: flex;
     width: 100%;
@@ -33,7 +32,6 @@ nav  {
     z-index: 111;
     background: linear-gradient(rgba(18, 17, 17, 1), rgba(18, 17, 17, 0.2));
 }
-
 .logo {
     margin-left: 50px;
     display: flex;
@@ -48,17 +46,14 @@ nav  {
 .logo:hover {
     color: aqua;
 }
-
 .navItems {
     display: flex;
 }
-
 .navItems li {
     list-style: none;
     padding-left: 30px;
     padding-right: 30px;
 }
-
 .navItems li a{
     font-size: 25px;
     color: #4ECCA3;

@@ -22,11 +22,7 @@ body {
 .container {
     width: 100%;
     min-height: 100vh;
-    background: #262626;
-}
-
-.backPic {
-    background-size: cover;
+    background-color: #1e1e1e;
 }
 
 nav  {
@@ -150,3 +146,4 @@ nav  {
     overflow-y: hidden;
 
 }
+
