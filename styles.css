@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
 @font-face {
     font-family: LogoFont;
     src: url(logoFont.ttf);
@@ -13,18 +12,15 @@
     font-family: TextFont;
     src: url("textFont.ttf");
 }
-
 body {
     overflow: hidden;
     overflow-y: hidden;
 }
-
 .container {
     width: 100%;
     min-height: 100vh;
-    background: #262626;
+    background-color: #1e1e1e;
 }
-
 nav  {
     display: flex;
     width: 100%;
@@ -32,9 +28,9 @@ nav  {
     height: 80px;
     line-height: 80px;
     z-index: 111;
-    background: linear-gradient(rgba(18, 17, 17, 1), rgba(18, 17, 17, 0.2));
-}
+    background: linear-gradient(rgba(18, 17, 17, 1), rgba(18, 17, 17, 0.3))
 
+}
 .logo {
     margin-left: 50px;
     display: flex;
@@ -48,20 +44,10 @@ nav  {
 }
 .logo:hover {
     color: aqua;
-    margin-left: 50px;
-    display: flex;
-    font-size: 40px;
-    font-weight: 800;
-    color: #4ECCA3;
-    cursor: pointer;
-    font-family: LogoFont;
-    text-transform: uppercase;
-    text-decoration: none;
 }
 .navItems {
     display: flex;
 }
-
 .navItems li {
     list-style: none;
     padding-left: 30px;
@@ -97,7 +83,6 @@ nav  {
     font-weight: bold;
     cursor: pointer;
 }
-/* Split the screen in half */
 .split {
     height: 1000px;
     margin-top: 80px;
@@ -108,27 +93,19 @@ nav  {
     overflow-x: hidden;
     padding-top: 20px;
 }
-
-/* Control the left side */
 .left {
     left: 0;
 }
-
-/* Control the right side */
 .right {
     position: absolute;
     right: 0;
 }
-
-/* If you want the content centered horizontally and vertically */
 .centered {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
-/* Style the image inside the centered container, if needed */
 .centered img {
     border-radius: 50%;
 }
@@ -139,10 +116,11 @@ nav  {
 .text1 {
     position: absolute;
     margin: 20% 10% 10% 10%;
-    padding: 3% 3% 3% 3%;
+    padding: 3% 2% 3% 2%;
     color: #4ECCA3;
     text-align: center;
     border: #4ECCA3 dashed;
     overflow-y: hidden;
-
+    border-radius: 25px;
 }
+
