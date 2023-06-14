@@ -21,7 +21,7 @@ body {
 .container {
     width: 100%;
     min-height: 100vh;
-    background-color: #393E46;
+    background: #262626;
 }
 
 nav  {
@@ -31,7 +31,7 @@ nav  {
     height: 80px;
     line-height: 80px;
     z-index: 111;
-    background-color: #232931;
+    background: linear-gradient(rgba(18, 17, 17, 1), rgba(18, 17, 17, 0.2));
 }
 
 .logo {
@@ -54,7 +54,8 @@ nav  {
 
 .navItems li {
     list-style: none;
-    margin: 0 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .navItems li a{
@@ -64,7 +65,11 @@ nav  {
     font-family: TextFont, sans-serif;
     text-decoration: none;
     text-transform: capitalize;
+    padding-left: 5px;
+    padding-right: 5px;
+
 }
 .navItems li a:hover {
     color: aqua;
+    font-weight: bold;
 }
