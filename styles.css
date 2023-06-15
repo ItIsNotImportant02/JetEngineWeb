@@ -100,14 +100,13 @@ nav  {
 }
 /* Split the screen in half */
 .split {
-    height: 1000px;
+    height: 900px;
     margin-top: 80px;
     width: 50%;
     position: fixed;
     z-index: 1;
     top: 0;
     overflow-x: hidden;
-    padding-top: 20px;
 }
 
 /* Control the left side */
@@ -135,25 +134,81 @@ nav  {
     border-radius: 50%;
 }
 .engine1 {
-    padding-top: 10%;
-    padding-left: 25%;
+    margin-top: 5%;
+    width: 960px;
+    height: 600px;
 }
 .text1 {
-    margin: 15% 10% 10% 10%;
+    margin: 17% 10% 10% 10%;
     padding: 3% 3% 3% 3%;
     color: #4ECCA3;
     text-align: center;
     border: #4ECCA3 dashed;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
 
+}
+.text2 {
+    margin: 11% 10% 10% 10%;
+    padding: 3% 3% 3% 3%;
+    color: #4ECCA3;
+    text-align: center;
+    border: #4ECCA3 dashed;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+}
+.text3 {
+    margin: 17% 10% 10% 10%;
+    padding: 3% 3% 3% 3%;
+    color: #4ECCA3;
+    text-align: center;
+    border: #4ECCA3 dashed;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
 }
 .box1 {
     top: 0;
     width: 100%;
-    height: 3500px;
+    height: 2650px;
     background: rgba(0, 0, 0, 0.15) url("pictures/Background.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-p1 {
-    color: #fdf242;
+.split2 {
+    height: 900px;
+    margin-top: 980px;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+}
+
+/* Control the left side */
+.left2 {
+    position: absolute;
+    left: 0;
+}
+.right2 {
+    position: absolute;
+    right: 0;
+}
+.split3 {
+    height: 820px;
+    margin-top: 1880px;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+}
+
+/* Control the left side */
+.left3 {
+    position: absolute;
+    left: 0;
+}
+.right3 {
+    position: absolute;
+    right: 0;
 }
