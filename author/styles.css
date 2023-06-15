@@ -98,16 +98,24 @@ nav  {
     font-weight: bold;
     cursor: pointer;
 }
-.split {
+.splitl {
     height: 900px;
     margin-top: 80px;
-    width: 50%;
+    width: 30%;
     position: fixed;
     z-index: 1;
     top: 0;
     overflow-x: hidden;
 }
-
+.splitr {
+    height: 900px;
+    margin-top: 80px;
+    width: 70%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+}
 /* Control the left side */
 .left {
     position: absolute;
@@ -146,6 +154,18 @@ nav  {
     width: 100%;
     height: 80px;
     background: url("../pictures/Background.png");
-    background-size: 100% 2500px;
+}
+.box2 {
+    top: 0;
+    width: 100%;
+    height: 2650px;
+    background: rgba(0, 0, 0, 0.15) url("../pictures/Background.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+.mcskin {
+    margin-top: 10%;
+    margin-left: 60px;
+    height: 650px;
+    width: 329px;
 }
