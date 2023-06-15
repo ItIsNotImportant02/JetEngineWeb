@@ -16,7 +16,7 @@
 }
 
 body {
-
+    background: black;
 }
 
 .container {
@@ -137,6 +137,11 @@ nav  {
     margin-top: 5%;
     width: 960px;
     height: 600px;
+}
+.video {
+    margin-top: 14%;
+    width: 900px;
+    height: 500px;
 }
 .text1 {
     margin: 17% 10% 10% 10%;
