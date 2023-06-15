@@ -21,7 +21,7 @@ body {
 .container {
     width: 100%;
     min-height: 100vh;
-    background: #262626;
+    background: #262626
 }
 
 nav  {
@@ -43,9 +43,18 @@ nav  {
     cursor: pointer;
     font-family: LogoFont, serif;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .logo:hover {
     color: aqua;
+    margin-left: 50px;
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    cursor: pointer;
+    font-family: LogoFont;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .navItems {
@@ -89,4 +98,54 @@ nav  {
     font-weight: bold;
     cursor: pointer;
 }
+.split {
+    height: 900px;
+    margin-top: 80px;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+}
 
+/* Control the left side */
+.left {
+    position: absolute;
+    left: 0;
+}
+
+/* Control the right side */
+.right {
+    position: absolute;
+    right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+    border-radius: 50%;
+}
+.text1 {
+    margin: 20% 10% 10% 10%;
+    padding: 3% 3% 3% 3%;
+    color: #4ECCA3;
+    text-align: center;
+    border: #4ECCA3 dashed;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+
+}
+.container {
+    width: 100%;
+    height: 80px;
+    background: url("../pictures/Background.png");
+    background-size: 100% 2500px;
+    background-repeat: no-repeat;
+}

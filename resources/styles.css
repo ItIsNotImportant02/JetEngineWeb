@@ -42,6 +42,14 @@ nav  {
 }
 .logo:hover {
     color: aqua;
+    margin-left: 50px;
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    cursor: pointer;
+    font-family: LogoFont;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .navItems {
