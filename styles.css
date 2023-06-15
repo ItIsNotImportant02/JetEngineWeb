@@ -24,6 +24,10 @@ body {
     background-color: #393E46;
 }
 
+.backPic {
+    background-size: cover;
+}
+
 nav  {
     display: flex;
     width: 100%;
