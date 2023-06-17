@@ -192,6 +192,10 @@ nav  {
 .left2 {
     position: absolute;
     left: 0;
+    background: url("pictures/engine2.png");
+    background-position: right;
+    background-size: 99%;
+    background-repeat: no-repeat;
 }
 .right2 {
     position: absolute;
