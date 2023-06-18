@@ -154,7 +154,10 @@ nav  {
 .text2 p a {
     text-decoration: none;
     color: cyan;
-
 }
-
+.box1 {
+    height: 2650px;
+    top: 0;
+    width: 100%;
+}
 
