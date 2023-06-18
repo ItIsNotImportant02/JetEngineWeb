@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 @font-face {
     font-family: LogoFont;
     src: url(../logoFont.ttf);
@@ -12,14 +13,17 @@
     font-family: TextFont;
     src: url(../textFont.ttf);
 }
+
 body {
     overflow: hidden;
 }
+
 .container {
     width: 100%;
     min-height: 100vh;
-    background: #1e1e1e;
+    background: #262626
 }
+
 nav  {
     display: flex;
     width: 100%;
@@ -29,6 +33,7 @@ nav  {
     z-index: 111;
     background: linear-gradient(rgba(18, 17, 17, 1), rgba(18, 17, 17, 0.2));
 }
+
 .logo {
     margin-left: 50px;
     display: flex;
@@ -55,11 +60,13 @@ nav  {
 .navItems {
     display: flex;
 }
+
 .navItems li {
     list-style: none;
     padding-left: 30px;
     padding-right: 30px;
 }
+
 .navItems li a{
     font-size: 25px;
     color: #4ECCA3;
@@ -91,3 +98,63 @@ nav  {
     font-weight: bold;
     cursor: pointer;
 }
+.split2 {
+    height: 900px;
+    margin-top: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+}
+/* Control the left side */
+.left2 {
+    position: absolute;
+    left: 0;
+}
+
+/* Control the right side */
+.right2 {
+    position: absolute;
+    right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+    border-radius: 50%;
+}
+.text2 {
+    margin-left: 30%;
+    margin-top: 10%;
+    padding: 3% 3% 3% 3%;
+    color: #4ECCA3;
+    text-align: center;
+    border: #4ECCA3 dashed;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    width: 800px;
+
+}
+.container {
+    top: 0;
+    width: 100%;
+    height: 2650px;
+    background: rgba(0, 0, 0, 0.15) url("../pictures/Background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.text2 p a {
+    text-decoration: none;
+    color: cyan;
+
+}
+
+
